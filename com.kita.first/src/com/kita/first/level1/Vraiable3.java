@@ -22,5 +22,6 @@ public class Vraiable3 {
 		double n6 = Double.parseDouble(s1);
 		int n5 = 1;
 		System.out.println(n4 + n5);
+	
 	}
 }
