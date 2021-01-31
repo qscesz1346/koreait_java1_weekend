@@ -4,7 +4,7 @@ public class Switch {
 	public static void main(String[] args) {
 		int num = 1;
 		switch(num) { // switch문 문자열 비교
-		case 1:
+		case 1: //switch 괄호안에 변수 그대로 
 			System.out.println(1);
 			break;
 		case 2:

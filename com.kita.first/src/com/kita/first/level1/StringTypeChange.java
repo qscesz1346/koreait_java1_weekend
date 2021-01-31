@@ -11,11 +11,12 @@ public class StringTypeChange {
 		String str2 = "123";
 //		int result2 = (int)str2;
 		int result2 = Integer.parseInt(str2); //Integer.parseInt(str2) 정수변환
+		System.out.println(result2);
 		
 		String str3 = "2.3";
 		double result3 = Double.parseDouble(str3); 
 		// result3 = Double.parseDouble("2.3");
-		
+		System.out.println(result3);
 		
 	}
 }

@@ -28,12 +28,12 @@ public class Equals {
 		String str2 = "안녕";
 		String str3 = new String("안녕");
 		
-		boolean result5 = (str1 == str2);
-		System.out.println("result5: "+result5);
+		boolean result5 = (str1 == str2); //문자열은 저장되어있는 주소값비교. 같은 글자더라도 주소가 다를경우 false
+		System.out.println("result5: "+result5); //true
 		boolean result6 = (str1 == str3);
-		System.out.println("result6: "+result6);
+		System.out.println("result6: "+result6); //false
 		
-		boolean result7 = ("안녕".equals(str3)); // (.)~의
+		boolean result7 = ("안녕".equals(str3)); // (.equals)문자비교
 		System.out.println("result7: "+result7);
 		
 		boolean result8 = (str1.equals(str3));

@@ -14,25 +14,26 @@ public class Practice05 {
 //		1~12가 아닌 갑을 입력했다면 "잘못 입력하셨습니다."
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("월을 입력해주세요 : (1~12)");
-		int n = sc.nextInt();
-		int result;
+		System.out.println("월을 입력해주세요(1~12): ");
+//		int n = sc.nextInt();
+		String month = sc.next();
+		sc.close();
 		
-		if() {
-			result = 1;
-		} else if() {
-			result = 2;
-		} else if() {
-			result = 3;
-		} else if() {
-			result = 4;
-		} else {
+		switch(month) {
+		case "3": case "4": case "5":
+			System.out.println("봄입니다.");
+			break;
+		case "6": case "7": case "8":
+			System.out.println("여름입니다.");
+			break;
+		case "9": case "10": case "11":
+			System.out.println("가을입니다.");
+			break;
+		case "1": case "2": case "12":
+			System.out.println("겨울입니다.");
+			break;
+		default:
 			System.out.println("잘못 입력하셨습니다.");
-		}
-		
-		switch() {
-		case 1: case 2: case 3: case 4:
-			System.out.println();
 		}
 		
 	}
