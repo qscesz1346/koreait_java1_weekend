@@ -2,6 +2,7 @@ package com.kita.first.level2.practice;
 
 import java.util.Arrays;
 
+import com.kita.first.level2.Calc;
 import com.kita.first.level2.Method1;
 
 public class Practice14 {
@@ -44,5 +45,6 @@ public class Practice14 {
 		int result = Method1.sum(totalSum, totalSum / totalCnt);
 		System.out.println(result);
 
+		
 	}
 }
